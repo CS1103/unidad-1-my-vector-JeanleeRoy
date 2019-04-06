@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <cassert>
-
+#include "Vector.h"
 
 int main() {
 
@@ -37,7 +37,7 @@ int main() {
 
     // Agregando datos
     auto j = 0;
-    for (int i = 40; i < 20; ++i) {
+    for (int i = 0; i < 20; ++i) {
         vec1.insert(vec1.begin()+j, i);
         vec2.insert(j++, i);
     }
